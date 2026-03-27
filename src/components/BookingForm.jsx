@@ -139,10 +139,10 @@ const BookingForm = () => {
                 onChange={handleChange}
                 className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:border-blue-400 transition-colors"
               >
-                <option value="1">1 Guest</option>
-                <option value="2">2 Guests</option>
-                <option value="3">3 Guests</option>
-                <option value="4">4 Guests</option>
+                <option value="1" className="bg-slate-800 text-white">1 Guest</option>
+                <option value="2" className="bg-slate-800 text-white">2 Guests</option>
+                <option value="3" className="bg-slate-800 text-white">3 Guests</option>
+                <option value="4" className="bg-slate-800 text-white">4 Guests</option>
               </select>
             </div>
 
@@ -154,10 +154,10 @@ const BookingForm = () => {
                 onChange={handleChange}
                 className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:border-blue-400 transition-colors"
               >
-                <option value="standard">Standard Room</option>
-                <option value="deluxe">Deluxe Room</option>
-                <option value="executive">Executive Room</option>
-                <option value="suite">Luxury Suite</option>
+                <option value="standard" className="bg-slate-800 text-white">Standard Room</option>
+                <option value="deluxe" className="bg-slate-800 text-white">Deluxe Room</option>
+                <option value="executive" className="bg-slate-800 text-white">Executive Room</option>
+                <option value="suite" className="bg-slate-800 text-white">Luxury Suite</option>
               </select>
             </div>
           </div>
